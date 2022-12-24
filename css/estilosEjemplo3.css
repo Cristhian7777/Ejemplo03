@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: rgb(148, 126, 30);
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid white;
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    color: white;
+    text-align: center;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.contenido {
+    background-color: brown;
+    margin-top: 15px;
+    /* borde de el elemento: grosor tipo color */
+    border: 1px solid black;
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
+    width: 90%;
+    /* Alto */
+    height: 520px;
+    /* Margen exterior  */
+    margin-left: 4%;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    /* Fondo con degradado de colores */
+    /*background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);*/
+    /* background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
+    background: linear-gradient(to top, transparent, #850eb4, #4a86be, #090a01);
+    box-shadow: 5px 5px 15px black;
+    padding: 0.5%;
+}
+
+.inombre {
+    border: 0.5px solid blue;
+    background-color:aqua;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.inombre:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.iAsunto {
+    border: 0.5px solid rgb(0, 255, 200);
+    background-color:rgb(157, 255, 0);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.datos {
+    color: rgb(28, 0, 128);
+    text-align:center ;
+    background: aqua;
+    border: 5px solid olivedrab;
+    border-radius: 15px;
+    width: 40%;
+    height: 280px;
+    padding: auto;
+    margin: 0 auto;
+}
